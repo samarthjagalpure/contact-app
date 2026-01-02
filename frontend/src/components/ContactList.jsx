@@ -10,7 +10,7 @@ function ContactList({ contacts, fetchContacts }) {
     if (!confirmDelete) return;
 
     try {
-      await axios.delete(`http://localhost:5000/api/contacts/${id}`);
+      await axios.delete(`https://contact-app-11ig.onrender.com/api/contacts/${id}`);
       fetchContacts(); // refresh list after delete
     } catch (error) {
       console.error(error);

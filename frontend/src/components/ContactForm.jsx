@@ -15,7 +15,7 @@ function ContactForm({ fetchContacts }) {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    await axios.post("http://localhost:5000/api/contacts", form);
+    await axios.post("https://contact-app-11ig.onrender.com/api/contacts", form);
     setForm({ name: "", email: "", phone: "", message: "" });
     fetchContacts();
   };
