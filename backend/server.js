@@ -21,4 +21,7 @@ app.listen(PORT, () => {
 app.get("/", (req, res) => {
   res.send("Backend is running successfully 🚀");
 });
+<<<<<<< HEAD
 
+=======
+>>>>>>> f0ea4acf8231f2e23aaa4da9f2f72525d3a9d6db
